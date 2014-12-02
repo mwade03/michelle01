@@ -7,15 +7,11 @@ import java.io.InputStreamReader;
  */
 public class HelloWorld {
     public static void main(String[] args) {
-//        //System.out.println("dickspit");
-//        System.out.println("howdy yo");
-//        greet("bananas");
-//        int y = f(5);
-//        System.out.println(y);
-        String input = getInput();
-
-        System.out.println(input);
+        System.out.println("what's your name");
+        String name = getInput();
+        System.out.println("hello " + name);
     }
+
 
     public static void greet(String name){
         System.out.println("hi " + name);
