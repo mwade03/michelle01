@@ -7,15 +7,28 @@ import java.io.InputStreamReader;
  */
 public class HelloWorld {
     public static void main(String[] args) {
-//        System.out.println("what's your name");
-//        String name = getInput();
-//        System.out.println("hello " + name);
-        System.out.println("first number to add");
-        int number = Integer.parseInt(getInput());
-        int number2 = Integer.parseInt(getInput());
-        System.out.println(number + number2);
+        boolean loggedIn = false;
+        int count = 0;
+        while (!loggedIn && count < 4){
+            loggedIn = login();
+            count = count + 1;
+//            System.out.println(count);
+        }
     }
 
+    public static boolean login(){
+        System.out.println("password?");
+        String password = getInput();
+        String realPassword = "kittens";
+        if (password.equals(realPassword) ){
+            System.out.println("access granted");
+            return true;
+        }
+        else {
+            System.out.println("permission denied");
+            return false;
+        }
+    }
 
     public static void greet(String name){
         System.out.println("hi " + name);
