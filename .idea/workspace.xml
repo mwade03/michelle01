@@ -1,14 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7936d59-e1ab-42dd-b901-8d07ba049725" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FarmManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/MenuItem.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Banana.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Fruit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/HelloWorld.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Orange.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="f7936d59-e1ab-42dd-b901-8d07ba049725" name="Default" comment="Print part of menu&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Menu.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FarmManager.java" afterPath="$PROJECT_DIR$/src/FarmManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MenuItem.java" afterPath="$PROJECT_DIR$/src/MenuItem.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Michelle01.iws" />
@@ -20,6 +16,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -73,11 +74,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FarmManager.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="FarmManager.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FarmManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="13" selection-start="371" selection-end="371" vertical-scroll-proportion="0.31190926" vertical-offset="0" max-vertical-offset="529">
+            <state line="7" column="27" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Menu.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Menu.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="1" selection-start="565" selection-end="565" vertical-scroll-proportion="0.4820416" vertical-offset="0" max-vertical-offset="529">
+              <folding>
+                <element signature="e#147#157#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -85,7 +97,7 @@
       <file leaf-file-name="MenuItem.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MenuItem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="34" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+            <state line="8" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
               <folding />
             </state>
           </provider>
@@ -115,8 +127,9 @@
         <option value="$PROJECT_DIR$/src/Banana.java" />
         <option value="$PROJECT_DIR$/src/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/Orange.java" />
-        <option value="$PROJECT_DIR$/src/MenuItem.java" />
         <option value="$PROJECT_DIR$/src/FarmManager.java" />
+        <option value="$PROJECT_DIR$/src/MenuItem.java" />
+        <option value="$PROJECT_DIR$/src/Menu.java" />
       </list>
     </option>
   </component>
@@ -499,7 +512,7 @@
       <created>1417477251504</created>
       <updated>1417477251504</updated>
       <workItem from="1417477255068" duration="8041000" />
-      <workItem from="1417644328721" duration="1461000" />
+      <workItem from="1417644328721" duration="3122000" />
     </task>
     <task id="LOCAL-00001" summary="Added function">
       <created>1417479478371</created>
@@ -525,11 +538,15 @@
       <created>1417644550273</created>
       <updated>1417644550273</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Print part of menu">
+      <created>1417646218060</created>
+      <updated>1417646218060</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9502000" />
+    <option name="totallyTimeSpent" value="11163000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -583,7 +600,8 @@
     <MESSAGE value="Calculator" />
     <MESSAGE value="Login" />
     <MESSAGE value="Committing everything before starting Farm!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Committing everything before starting Farm!" />
+    <MESSAGE value="Print part of menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Print part of menu" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -595,15 +613,24 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/MenuItem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="8" column="0" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/FarmManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="13" selection-start="371" selection-end="371" vertical-scroll-proportion="0.31190926" vertical-offset="0" max-vertical-offset="529">
+        <state line="7" column="27" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Menu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="1" selection-start="565" selection-end="565" vertical-scroll-proportion="0.4820416" vertical-offset="0" max-vertical-offset="529">
+          <folding>
+            <element signature="e#147#157#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -4,6 +4,11 @@
 public class MenuItem {
     public String title;
 
+    public MenuItem(String title) {
+        this.title = title;
+
+    }
+
     public void printTitle() {
         System.out.println(title);
     }
